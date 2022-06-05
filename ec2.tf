@@ -1,4 +1,4 @@
-resource "aws_instance" "only" {
+resource "aws_instance" "mount" {
   ami           = var.instance_ami
   instance_type = var.instance_type
 
